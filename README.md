@@ -81,6 +81,8 @@ docker build -t miapache-php .
 docker run --rm -d -p 5555:80 --name miapache-php miapache-php
 ```
 
+<img width="1898" height="917" alt="image" src="https://github.com/user-attachments/assets/c05c2c4d-d0fa-4c6f-8848-bb50666c4f65" />
+
 ### ejem03 - Construir, lanzar y verificar
 
 ```bash
