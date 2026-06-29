@@ -93,12 +93,8 @@ sh run_ejem03.sh
 El script construye la imagen, la lanza en el puerto 5555 y muestra la version
 de PHP y Apache dentro del contenedor para confirmar que todo funciona.
 
-## Capturas y README
+<img width="1366" height="768" alt="Captura de pantalla 2026-06-29 202324" src="https://github.com/user-attachments/assets/a2ee6618-0a5b-4fd0-8bcb-c28eaf0e21a4" />
 
-- Toma capturas de pantalla de: la edicion con vi dentro del contenedor, y del
-  despliegue en Docker (puerto 5555).
-- Guarda las imagenes en `screens/` (por ejemplo `screens/vi-edit.png`,
-  `screens/docker-run.png`) y referencialas en este README.
 
 ## Notas de resolucion de errores
 
