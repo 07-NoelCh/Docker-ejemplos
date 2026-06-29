@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Site 1</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1e3a5f, #0ea5e9);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 48px 56px;
+      text-align: center;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.25);
+    }
+    .emoji { font-size: 4rem; margin-bottom: 16px; }
+    h1 { font-size: 2.2rem; color: #0f172a; margin-bottom: 8px; }
+    p { color: #64748b; font-size: 1rem; margin-bottom: 24px; }
+    .badge {
+      background: #0ea5e9;
+      color: white;
+      padding: 8px 20px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      display: inline-block;
+    }
+    .port { color: #94a3b8; font-size: 0.8rem; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="emoji">🚀</div>
+    <h1>Site 1</h1>
+    <p>Corriendo en su propio contenedor Docker con Nginx</p>
+    <span class="badge">✅ Lanzado correctamente</span>
+    <p class="port">Puerto: localhost:8001</p>
+  </div>
+</body>
+</html>

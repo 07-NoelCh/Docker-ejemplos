@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  site1:
+    image: nginx:alpine
+    container_name: site1
+    ports:
+      - "8001:80"
+    volumes:
+      - ./site1:/usr/share/nginx/html:ro
+    restart: always
+
+  site2:
+    image: nginx:alpine
+    container_name: site2
+    ports:
+      - "8002:80"
+    volumes:
+      - ./site2:/usr/share/nginx/html:ro
+    restart: always
