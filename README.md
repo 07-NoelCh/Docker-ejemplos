@@ -54,6 +54,11 @@ vi /var/www/html/index.html
 # i para insertar, ESC y luego :wq para guardar y salir
 ```
 
+
+<img width="1366" height="686" alt="Captura de pantalla 2026-06-29 193957" src="https://github.com/user-attachments/assets/1da626d1-56ec-4643-bde4-2f28a592b391" />
+
+
+
 ### ejem02 - Construir, lanzar y editar (script automatico)
 
 ```bash
