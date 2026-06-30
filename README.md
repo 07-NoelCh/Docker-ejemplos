@@ -1,5 +1,4 @@
-Resumen: ejercicios para practicar edicion dentro de un contenedor Docker, uso de
-editores (vi/vim), y uso de VS Code Remote Explorer.
+
 
 ## Estructura
 
