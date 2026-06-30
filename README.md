@@ -49,6 +49,12 @@ vi /var/www/html/index.html
 # i para insertar, ESC y luego :wq para guardar y salir
 ```
 
+<img width="1366" height="768" alt="Captura de pantalla 2026-06-29 220803" src="https://github.com/user-attachments/assets/8e68c427-5892-4b71-a42a-f06c5dc603a8" />
+
+<img width="1366" height="719" alt="Captura de pantalla 2026-06-29 220743" src="https://github.com/user-attachments/assets/f80c670b-7068-483d-85db-c82522c97e83" />
+
+
+
 ### ejem02 - Construir, lanzar y editar (script automatico)
 
 ```bash
@@ -68,8 +74,10 @@ El script construye la imagen, la lanza en el puerto 5555 y abre directamente
 
 ```bash
 docker build -t miapache-php .
-docker run --rm -d -p 5555:80 --name miapache-php miapache-php
+docker run --rm -d -p 8888:80 --name miapache-php miapache-php
 ```
+<img width="1366" height="728" alt="Captura de pantalla 2026-06-29 231414" src="https://github.com/user-attachments/assets/4229814a-6f71-4623-83e0-fe2686d9dd9f" />
+
 
 ### ejem03 - Construir, lanzar y verificar
 
@@ -80,6 +88,9 @@ sh run_ejem03.sh
 
 El script construye la imagen, la lanza en el puerto 5555 y muestra la version
 de PHP y Apache dentro del contenedor para confirmar que todo funciona.
+
+<img width="1366" height="768" alt="Captura de pantalla 2026-06-29 232458" src="https://github.com/user-attachments/assets/026cb36e-f941-4666-b17d-79a6c0726d82" />
+
 
 # Docker Tutorial — Ejemplos 7 y 9
 
