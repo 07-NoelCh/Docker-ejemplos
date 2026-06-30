@@ -91,8 +91,6 @@ de PHP y Apache dentro del contenedor para confirmar que todo funciona.
 <img width="1366" height="768" alt="Captura de pantalla 2026-06-29 232458" src="https://github.com/user-attachments/assets/026cb36e-f941-4666-b17d-79a6c0726d82" />
 
 
-# Docker Tutorial — Ejemplos 7 y 9
-
 ## Ejemplo 7 — PHP + MySQL + PHPMyAdmin
 
 ### Consigna
