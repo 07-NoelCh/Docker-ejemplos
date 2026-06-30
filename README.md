@@ -150,6 +150,13 @@ docker-compose up -d
 Al abrir `localhost:8000` se verá una tabla con los usuarios almacenados en MySQL, con diseño oscuro moderno.  
 Al abrir `localhost:8080` se podrá administrar la base de datos visualmente desde PHPMyAdmin.
 
+
+<img width="1366" height="719" alt="Captura de pantalla 2026-06-29 213738" src="https://github.com/user-attachments/assets/17a5a487-7f21-49ba-8316-7b737ace12fc" />
+
+<img width="1366" height="742" alt="Captura de pantalla 2026-06-29 214821" src="https://github.com/user-attachments/assets/89744c44-5c09-4d86-8e52-816d69fcca0d" />
+
+
+
 ---
 
 ## Ejemplo 9 — Multi-Site con Nginx
@@ -218,6 +225,9 @@ docker-compose up -d --build
 ```
 
 
+<img width="1366" height="724" alt="Captura de pantalla 2026-06-29 215707" src="https://github.com/user-attachments/assets/3564ff89-d608-4bb1-83bb-5dd418c3ae4a" />
+
+<img width="1366" height="728" alt="Captura de pantalla 2026-06-29 215730" src="https://github.com/user-attachments/assets/85e520cc-4abc-4aea-b0a1-7a1eb4e2880b" />
 
 
 
@@ -225,12 +235,6 @@ docker-compose up -d --build
 
 
 
-## Capturas y README
-
-- Toma capturas de pantalla de: la edicion con vi dentro del contenedor, y del
-  despliegue en Docker (puerto 5555).
-- Guarda las imagenes en `screens/` (por ejemplo `screens/vi-edit.png`,
-  `screens/docker-run.png`) y referencialas en este README.
 
 ## Notas de resolucion de errores
 
