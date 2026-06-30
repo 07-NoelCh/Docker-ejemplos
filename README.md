@@ -1,10 +1,3 @@
-[README.md](https://github.com/user-attachments/files/29485818/README.md)
-
-[README.md](https://github.com/user-attachments/files/29476436/README.md)
-# Actividad DAD - Docker (ejem01, ejem02, ejem03,ejem07,ejem09)
-
-
-
 Resumen: ejercicios para practicar edicion dentro de un contenedor Docker, uso de
 editores (vi/vim), y uso de VS Code Remote Explorer.
 
